@@ -1,3 +1,15 @@
+On tools you can find the data correction utility
+
+dataExtractionScript.py creates X_train.npy, Y_train.npy, X_test.npy, and Y_test.npy, the datasets used for training on the deceiver network.
+
+The training process is as follows:
+1) trainDeceiverUnet.ipynb
+2) trainShapeUnet.ipynb
+3) trainSRUnet.ipynb
+
+This work is based on:
+``Ravishankar, H., Venkataramani, R., Thiruvenkadam, S., Sudhakar, P., & Vaidya, V. (2017, September). Learning and incorporating shape models for semantic segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 203-211). Springer, Cham.``
+
 pixelwise segmentation autoencoder + shape convolution auto encoder
  
 Advantage of explicitly modeling shape: 
